@@ -22,7 +22,7 @@ public class FrequencyCount {
         return 0;
 
     }
-        public static void main(String[] args) {
+        static void main(String[] args) {
             int[] numbers = {5, 1, 2, 1, 1, 4, 2, 1, 5, 1,1};
             int result = majorityElement(numbers);
             System.out.println(result);
