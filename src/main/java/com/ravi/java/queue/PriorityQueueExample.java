@@ -25,7 +25,6 @@ public class PriorityQueueExample {
 
         for (int num : myList) {
             minHeap.add(num);
-
             if (minHeap.size() > k) {
                 minHeap.poll();
             }
