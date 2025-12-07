@@ -1,0 +1,92 @@
+master_list:
+  description: "All Problems You Completed in This Thread"
+  days:
+    - day: "Day 1–2 (Basics & Warm-up)"
+      topics:
+        - "Arrays & Strings"
+      problems:
+        - id: 125
+          title: "Valid Palindrome"
+          source: "LeetCode"
+        - id: 3
+          title: "Longest Substring Without Repeating Characters"
+          source: "LeetCode"
+
+    - day: "Day 3 (Two-Pointer / Array)"
+      problems:
+        - id: 125
+          title: "Valid Palindrome (Two-pointer version)"
+          source: "LeetCode"
+        - id: 167
+          title: "Two Sum II (Sorted Array)"
+          source: "LeetCode"
+        - id: 283
+          title: "Move Zeroes"
+          source: "LeetCode"
+
+    - day: "Day 4 (HashMap + PriorityQueue)"
+      problems:
+        - id: 347
+          title: "Top K Frequent Elements"
+          source: "LeetCode"
+        - id: 451
+          title: "Sort Characters By Frequency"
+          source: "LeetCode"
+
+    - day: "Day 5 (Sliding Window — Core Problems)"
+      problems:
+        - id: 209
+          title: "Minimum Size Subarray Sum"
+          source: "LeetCode"
+        - id: 904
+          title: "Fruit Into Baskets"
+          source: "LeetCode"
+        - id: 424
+          title: "Longest Repeating Character Replacement"
+          source: "LeetCode"
+
+    - day: "Day 6 (Sliding Window Advanced)"
+      problems:
+        - id: 643
+          title: "Maximum Average Subarray I"
+          source: "LeetCode"
+        - id: 438
+          title: "Find All Anagrams in a String"
+          source: "LeetCode"
+        - id: 567
+          title: "Permutation in String"
+          source: "LeetCode"
+        - id: 76
+          title: "Minimum Window Substring"
+          source: "LeetCode"
+        - title: "Longest Substring With At Most K Distinct Characters"
+          source: "LeetCode Premium"
+          note: "Solved using custom prompt"
+
+    - day: "Day 7 (Deque + Sliding Window Max)"
+      problems:
+        - id: 239
+          title: "Sliding Window Maximum"
+          source: "LeetCode"
+          note: "Brute force + learned optimized deque approach"
+
+    - day: "Day 8 (Two-Pointer Strong Foundation)"
+      problems:
+        - id: 167
+          title: "Two Sum II (Re-solved)"
+          source: "LeetCode"
+        - id: 283
+          title: "Move Zeroes (Re-solved)"
+          source: "LeetCode"
+
+summary:®
+  total_problems_solved: 18
+  concepts_mastered:
+    - "Two Pointers"
+    - "Sliding Window"
+    - "HashMap frequency tracking"
+    - "PriorityQueue (Max Heap)"
+    - "Deque for Sliding Window Maximum"
+    - "Character Frequency Arrays"
+    - "Window shrinking logic"
+    - "90% of common interview patterns"

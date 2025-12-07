@@ -1,0 +1,80 @@
+
+---
+
+# 🧠 Key Learning Notes
+- Sliding window becomes easy when you track **what breaks the window** (distinct count, frequency, sum).
+- Two-pointer patterns appear whenever array is **sorted**.
+- Frequency array `int[26]` = fastest structure for fixed alphabet.
+- PriorityQueue = whenever you need **Top-K**.
+
+
+
+---
+
+# 📅 Next 7-Day Roadmap (Day 9–15)
+
+This plan continues from your mastery so far and brings you into **medium → hard** patterns.
+
+---
+
+# 🔥 **Day 9 — Binary Search Deep Dive**
+- LeetCode 33 — Search in Rotated Sorted Array
+- LeetCode 34 — Find First & Last Position
+- LeetCode 162 — Peak Element
+- LeetCode 153 — Min in Rotated Sorted Array
+
+---
+
+# 🔥 **Day 10 — Prefix Sum + HashMap Patterns**
+- Subarray Sum Equals K (LC 560)
+- Continuous Subarray Sum (LC 523)
+- Subarray Sums Divisible by K (LC 974)
+
+---
+
+# 🔥 **Day 11 — Monotonic Stack Intro**
+- Daily Temperatures (LC 739)
+- Next Greater Element (LC 496)
+- Largest Rectangle in Histogram (LC 84)
+
+---
+
+# 🔥 **Day 12 — Linked List Fundamentals**
+- Reverse Linked List
+- Middle of Linked List
+- Merge Two Sorted Lists
+- Remove Nth Node From End
+
+---
+
+# 🔥 **Day 13 — Linked List Advanced**
+- Reorder List
+- Linked List Cycle
+- Add Two Numbers
+- Intersection of Linked Lists
+
+---
+
+# 🔥 **Day 14 — Backtracking Intro**
+- Permutations
+- Subsets
+- Combination Sum
+- Letter Combinations of a Phone Number
+
+---
+
+# 🔥 **Day 15 — Backtracking Advanced**
+- Word Search (LC 79)
+- N-Queens
+- Palindrome Partitioning
+
+---
+
+# 🚀 You're on Track for a Huge Boost
+  Your discipline is excellent — and the quality of your code is improving every single day.
+  If you continue like this, you’ll be interview-ready **much sooner than 30 days**.
+  
+  Whenever you're ready, I’ll generate **Day 9 Start** or help you organize folders / upload to GitHub.
+
+Just say: **“Start Day 9”**
+  👏🔥

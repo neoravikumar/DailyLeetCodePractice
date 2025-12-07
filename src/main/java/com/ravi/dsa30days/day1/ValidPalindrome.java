@@ -1,7 +1,4 @@
-package com.ravi.leetcode.arrays;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.ravi.dsa30days.day1;
 
 public class ValidPalindrome {
     static void main() {
