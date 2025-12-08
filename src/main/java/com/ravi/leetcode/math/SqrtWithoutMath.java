@@ -1,7 +1,14 @@
 package com.ravi.leetcode.math;
 
+
+
 public class SqrtWithoutMath {
-    public int mySqrt(int x) {
+    static void main() {
+        int result = mySqrt(10);
+        System.out.println(result);
+    }
+
+    public static int mySqrt(int x) {
         if (x < 2)
             return x;
 
