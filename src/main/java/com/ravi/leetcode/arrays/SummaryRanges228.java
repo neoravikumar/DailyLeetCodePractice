@@ -33,7 +33,6 @@ public class SummaryRanges228 {
             } else {
                 result.add(start + "->" + nums[nums.length - 1]);
             }
-
             return result;
     }
 }
