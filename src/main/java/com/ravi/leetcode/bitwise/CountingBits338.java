@@ -1,0 +1,61 @@
+package com.ravi.leetcode.bitwise;
+
+//https://leetcode.com/problems/counting-bits/description/
+// 338. Counting Bits
+
+import java.util.Arrays;
+
+/**
+ * Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.
+ *
+ *
+ *
+ * Example 1:
+ *
+ * Input: n = 2
+ * Output: [0,1,1]
+ * Explanation:
+ * 0 --> 0
+ * 1 --> 1
+ * 2 --> 10
+ * Example 2:
+ *
+ * Input: n = 5
+ * Output: [0,1,1,2,1,2]
+ * Explanation:
+ * 0 --> 0
+ * 1 --> 1
+ * 2 --> 10
+ * 3 --> 11
+ * 4 --> 100
+ * 5 --> 101
+ */
+public class CountingBits338 {
+    static void main() {
+        int[] result = countBits(5);
+        System.out.println(Arrays.toString(result));
+    }
+
+    public static int[] countBits(int n) {
+        int[] resultArray = new int[n+1];
+        resultArray[0]=0;
+        for(int i=1;i<=n;i++){
+            int result = countNoOfOneInBinary(i);
+            resultArray[i]=result;
+        }
+        //lastIndex
+        //resultArray[n]=countNoOfOneInBinary(n);
+        return resultArray;
+    }
+
+    static int countNoOfOneInBinary(int n){
+        int sum =0;
+        while(n > 0){
+            if((n & 1) == 1){
+                sum++;
+            }
+            n = n >> 1;
+        }
+        return sum;
+    }
+}
