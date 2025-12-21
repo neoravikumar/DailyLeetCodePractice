@@ -9,8 +9,8 @@ public class FindtheIndexoftheFirstOccurrenceString {
     }
     public static int strStr(String haystack, String needle) {
 
-        int nlen = needle.length();
         int hlen = haystack.length();
+        int nlen = needle.length();
 
         for(int i=0; i<= hlen - nlen;i++){
             String ss = haystack.substring(i, i+nlen);

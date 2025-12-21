@@ -1,4 +1,4 @@
-package com.ravi.leetcode;
+package com.ravi.leetcode.bitwise;
 
 // 258. Add Digits
 //https://leetcode.com/problems/add-digits/description/
