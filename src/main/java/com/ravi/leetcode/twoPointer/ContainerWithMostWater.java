@@ -21,7 +21,8 @@ In this case, the max area of water (blue section) the container can contain is 
  */
 public class ContainerWithMostWater {
     static void main() {
-        int[] input = {1,8,6,2,5,4,8,3,7};
+        //int[] input = {1,8,6,2,5,4,8,3,7};
+        int[] input = {3,1,2,4,5};
         int result = maxArea(input);
         System.out.println(result);
     }
