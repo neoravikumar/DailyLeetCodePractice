@@ -11,6 +11,9 @@ public class JavaStream {
         List<Integer> flatMap = data.stream().flatMap(List::stream).toList();
         System.out.println(flatMap);
 
+        List<Integer> flatMapAddtwo = data.stream().flatMap(List::stream).map(k->k+2).toList();
+        System.out.println("Map After addition of two:"+flatMapAddtwo);
+
         List<String> sentences = List.of("java is fun", "streams are powerful");
         List<String> strings = sentences.stream().flatMap(s -> Arrays.stream(s.split(" " ))).toList();
 
@@ -33,6 +36,9 @@ public class JavaStream {
         Optional<Integer> thirdList = list.stream().sorted(Comparator.reverseOrder()).skip(2).findFirst();
         System.out.println("ThirdHighest:>"+thirdList.get());
 
+        Optional<Integer> value = list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+        System.out.println("Second Highest"+value.get());
+
         List<Integer> allUnique = list.stream().distinct().collect(Collectors.toList());
         System.out.println("All Unique>>"+allUnique);
 
@@ -48,6 +54,9 @@ boolean resultrrr = list.stream().anyMatch(x-> x==33);
 
         List<Integer>  result55 = list.stream().filter(i-> Collections.frequency(list,i)>1).distinct().collect(Collectors.toList());
         System.out.println("All Duplicate"+result55);
+
+        long totalDuplicateCount = list.stream().filter(i -> Collections.frequency(list,i)>1).distinct().count();
+        System.out.println("Total duplicate Count"+totalDuplicateCount);
 
         System.out.println("Original List ::>>"+list);
         List<Integer>  skipExample = list.stream().skip(2).limit(3).toList();
