@@ -1,8 +1,7 @@
-package com.ravi.java;
+package com.ravi.java.dailyPractice;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class JavaStream {
     static void main() {
