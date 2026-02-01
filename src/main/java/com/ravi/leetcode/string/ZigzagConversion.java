@@ -1,5 +1,11 @@
 package com.ravi.leetcode.string;
 
+/**
+ * LeetCode #6 - Zigzag Conversion
+ * Topic: String
+ * Time: O(n)
+ * Space: O(1)
+ */
 public class ZigzagConversion {
     static void main() {
         String result = convert("PAYPALISHIRING",3);
