@@ -38,5 +38,5 @@ _(Table updated regularly)_
 ---
 
 ## 🔗 Profile
-- LeetCode: https://leetcode.com/
+- LeetCode: https://leetcode.com/u/neorc/
 - GitHub: https://github.com/neoravikumar
