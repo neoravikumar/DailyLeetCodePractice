@@ -2,6 +2,10 @@ package com.ravi.leetcode.sorting;
 
 import java.util.Arrays;
 
+/*
+// 2037. Minimum Number of Moves to Seat Everyone
+
+ */
 public class MinimumNumberOfMovesToSeatEveryone {
     static void main() {
         int result = minMovesToSeat(new int[]{4,1,5,9}, new int[]{1,3,2,6});
